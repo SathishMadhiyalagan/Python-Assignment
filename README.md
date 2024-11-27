@@ -14,7 +14,7 @@ This project consists of two main functionalities:
 - **Django**: Web framework used for building the API.
 - **Django REST Framework**: Used for building RESTful APIs.
 - **Pandas**: For data manipulation and processing.
-- **mysql workbench (or any other database)**: Used for storing processed data.
+- **Mysql workbench.
 - **Requests**: For calling external APIs (JokeAPI).
 
 ---
