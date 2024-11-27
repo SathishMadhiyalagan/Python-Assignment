@@ -14,7 +14,7 @@ This project consists of two main functionalities:
 - **Django**: Web framework used for building the API.
 - **Django REST Framework**: Used for building RESTful APIs.
 - **Pandas**: For data manipulation and processing.
-- **Mysql workbench.
+- **Mysql workbench**.
 - **Requests**: For calling external APIs (JokeAPI).
 
 ---
@@ -146,19 +146,5 @@ python manage.py runserver
 ```
 
 Visit `http://127.0.0.1:8000/` to test the API endpoints.
-
----
-
-## **Error Handling**
-
-- If the CSV files are missing or contain invalid data, the ETL process may raise errors related to missing columns or invalid values. Ensure the CSV files are correctly formatted.
-- For external API calls to JokeAPI, ensure that the JokeAPI service is up and running. If the service is down, the joke fetcher will return an error message.
-
----
-
-## **Troubleshooting**
-
-- **Missing CSV files**: Ensure that `order_region_a.csv` and `order_region_b.csv` are present in the `csvFiles/` directory.
-- **Database Errors**: If you encounter issues with database migrations, run `python manage.py migrate` to ensure your database schema is up to date.
 
 ---
