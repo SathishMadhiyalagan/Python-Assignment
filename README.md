@@ -2,7 +2,7 @@ Here’s a `README` file that explains the setup and usage for both the **ETL pr
 
 ---
 
-# **Project Name: Sales Data ETL & Joke Fetcher**
+# **Assignment Name: Sales Data ETL & Joke Fetcher**
 
 ## **Overview**
 
