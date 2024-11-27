@@ -1,6 +1,3 @@
-Here’s a `README` file that explains the setup and usage for both the **ETL process** and **fetching jokes from JokeAPI** functionalities:
-
----
 
 # **Assignment Name: Sales Data ETL & Joke Fetcher**
 
@@ -17,7 +14,7 @@ This project consists of two main functionalities:
 - **Django**: Web framework used for building the API.
 - **Django REST Framework**: Used for building RESTful APIs.
 - **Pandas**: For data manipulation and processing.
-- **SQLite (or any other database)**: Used for storing processed data.
+- **mysql workbench (or any other database)**: Used for storing processed data.
 - **Requests**: For calling external APIs (JokeAPI).
 
 ---
@@ -105,7 +102,7 @@ Ensure the CSV files are placed in the `csvFiles/` directory, with the following
 - **Method**: `GET`
 - **Description**: This endpoint fetches jokes from the JokeAPI and stores them in the database. The jokes are categorized as either "single" (one joke string) or "twopart" (setup and delivery). It also processes and stores information such as `category`, `type`, `flags`, and `language`.
 
-- **Example Usage**: Visit `http://127.0.0.1:8000/jokes/fetch/` to fetch and store jokes from JokeAPI.
+- **Example Usage**: Visit `[http://127.0.0.1:8000/apis/fetch-jokes/]` to fetch and store jokes from JokeAPI.
 
 ---
 
